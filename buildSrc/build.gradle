@@ -1,0 +1,25 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+
+repositories {
+    jcenter()
+    maven { url "TODO" }
+    maven() { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+}
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+    compile 'com.android.tools.build:gradle:2.3.3'
+    compile files('libs/aliyun-sdk-oss-2.8.3.jar')
+    compile files('libs/commons-codec-1.9.jar')
+    compile files('libs/commons-logging-1.2.jar')
+    compile files('libs/hamcrest-core-1.1.jar')
+    compile files('libs/httpclient-4.4.1.jar')
+    compile files('libs/httpcore-4.4.1.jar')
+    compile files('libs/jdom-1.1.jar')
+    //TODO 加密库
+    compile 'com.squareup.okhttp3:okhttp:3.14.0'
+    compile 'com.alibaba:fastjson:1.2.46'
+}
