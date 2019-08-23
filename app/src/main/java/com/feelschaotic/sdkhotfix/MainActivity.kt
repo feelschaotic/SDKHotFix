@@ -1,0 +1,40 @@
+package com.feelschaotic.sdkhotfix
+
+import android.app.Activity
+import android.os.Bundle
+import com.feelschaotic.sdkhotfix.sdk.HotfixConfig
+import com.feelschaotic.sdkhotfix.sdk.HotfixManager
+import kotlinx.android.synthetic.main.activity_main.*
+
+/**
+ * @author feelschaotic
+ * @create 2019/6/04.
+ */
+class MainActivity : Activity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        fix_btn.setOnClickListener {
+            initHotfix()
+        }
+        call_bug_method_btn.setOnClickListener { callBug() }
+        rollback_btn.setOnClickListener { rollback() }
+    }
+
+    private fun callBug() {
+    }
+
+    private fun rollback() {
+
+    }
+
+    private fun initHotfix() {
+        val config: HotfixConfig = HotfixConfig.Builder().debug(true)
+                .appVersion(BuildConfig.VERSION_NAME)
+                .packageName(BuildConfig.APPLICATION_ID)
+                .build()
+        HotfixManager.init(application, config)
+    }
+}
