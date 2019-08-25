@@ -1,5 +1,10 @@
 # SDKHotFix（5分钟即可接入）
 
+[![Download](https://img.shields.io/github/package-json/v/feelschaotic/SDKHotFix/master)]()
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/feelschaotic/SDKHotFix/pulls)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/Meituan-Dianping/Robust/master/LICENSE)  
+
+
 在用户规模千万级别的app中验证过，稳定、无兼容问题，满足你的SDK快速拥有热修复能力的需求。
 
 ## 一、介绍
@@ -29,17 +34,20 @@
 
 1. 无兼容问题
 2. 实时生效
-3. 成功率最高
+3. 修复成功率高达99.9%
 4. 在用户规模千万级别的app中验证过，可信赖
 
 ### 待改进
 
 1. 在编译阶段插件侵入了产品代码，对运行效率、方法数、包体积还是产生了一些副作用。（可指定某些class无需插入方法，减少插桩数）
 2. so和资源的替换目前暂未实现 
+3. 对于只有字段访问的函数无法直接修复，可通过调用处间接修复
 
 ## 二、上手指南
 
 点击[SDK热修复SDK接入文档]()，开始接入吧！
+
+关于常见问题的解决，请参看 [Wiki](https://github.com/feelschaotic/SDKHotFix/wiki)
 
 ## 三、原理
 
