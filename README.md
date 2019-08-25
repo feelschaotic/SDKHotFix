@@ -4,8 +4,23 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/feelschaotic/SDKHotFix/pulls)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/Meituan-Dianping/Robust/master/LICENSE)  
 
-
 在用户规模千万级别的app中验证过，稳定、无兼容问题，满足你的SDK快速拥有热修复能力的需求。
+
+---
+
+- [一、介绍](#一、介绍)
+  * [作用](#--)
+  * [优点](#--)
+  * [待改进](#---)
+- [二、接入指南](#二、接入指南)
+- [三、使用指南和演示](#三、使用指南和演示)
+- [四、原理](#四、原理)
+- [五、相关文章](#五、相关文章)
+- [六、鸣谢](#六、鸣谢)
+    + [改进说明](#----)
+    
+[查看演示 Demo]() | [文档](https://github.com/feelschaotic/SDKHotFix/wiki)
+
 
 ## 一、介绍
 
@@ -27,9 +42,6 @@
 - 扩展美团 Robust 开源库，使其具有其他热更库不具备的补丁回滚功能
 - 数据和监控思维
 
-### 效果
-//TODO:gif
-
 ### 优点
 
 1. 无兼容问题
@@ -43,17 +55,24 @@
 2. so和资源的替换目前暂未实现 
 3. 对于只有字段访问的函数无法直接修复，可通过调用处间接修复
 
-## 二、上手指南
+## 二、接入指南 
 
 点击[SDK热修复SDK接入文档]()，开始接入吧！
 
 关于常见问题的解决，请参看 [Wiki](https://github.com/feelschaotic/SDKHotFix/wiki)
 
-## 三、原理
+## 三、使用指南和演示
+//TODO:gif
+
+## 四、原理
 
 见[SDK热修复原理文档]()
 
-## 四、鸣谢
+## 五、相关文章
+
+- [APP 热修复都懂了，你会 SDK 热修复吗？最全方案在这里！](https://juejin.im/post/5d299aaae51d45105e021367)
+
+## 六、鸣谢
 
 灵感来源于oubowu大大的[RobustForSdk](https://github.com/oubowu/RobustForSdk)，感谢！
 
