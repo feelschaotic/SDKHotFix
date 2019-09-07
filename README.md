@@ -74,16 +74,19 @@
 
 ## 六、鸣谢
 
-灵感来源于oubowu大大的[RobustForSdk](https://github.com/oubowu/RobustForSdk)，感谢！
+灵感来源于oubowu大大的 [RobustForSdk](https://github.com/oubowu/RobustForSdk)，感谢！
 
 #### 改进说明
 相比于 RobustForSdk 库，本库：
-1. 修复了若干bug，更稳定
-2. 使用了 gardle Task 脚本上传补丁，比起Window程序更方便
-3. 使用了阿里云管理补丁
-4. 解决了application方式打包，与业务方的资源冲突问题
-5. 抽取成库，业务SDK只需要最小步骤即可快速接入
-6. 支持了打包SDK后上传jcenter
+1. 稳定性提升：
+- fix 若干 bug
+- fix 与业务方的资源 ID 冲突问题
+2. 便捷性提高：
+- 使用 gardle Task 脚本上传补丁，比起 Window 程序更方便
+- 抽取成库，业务 SDK 只需要最小步骤即可快速接入
+3. 支持度提高：
+- 使用了阿里云 oss 管理补丁 
+- 支持了打包 SDK 后上传 jcenter
 
 
 
