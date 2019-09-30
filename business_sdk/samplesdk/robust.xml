@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <switch>
+        <!--true代表打开Robust，请注意即使这个值为true，Robust也默认只在Release模式下开启-->
+        <!--false代表关闭Robust，无论是Debug还是Release模式都不会运行robust-->
+        <turnOnRobust>true</turnOnRobust>
+        <!--<turnOnRobust>false</turnOnRobust>-->
+
+        <!--是否开启手动模式，手动模式会去寻找配置项patchPackname包名下的所有类，自动的处理混淆，然后把patchPackname包名下的所有类制作成补丁-->
+        <!--这个开关只是把配置项patchPackname包名下的所有类制作成补丁，适用于特殊情况，一般不会遇到-->
+        <!--<manual>true</manual>-->
+        <manual>false</manual>
+
+        <!--是否强制插入插入代码，Robust默认在debug模式下是关闭的，开启这个选项为true会在debug下插入代码-->
+        <!--但是当配置项turnOnRobust是false时，这个配置项不会生效-->
+        <!--<forceInsert>true</forceInsert>-->
+        <forceInsert>false</forceInsert>
+
+        <!--是否捕获补丁中所有异常，建议上线的时候这个开关的值为true，测试的时候为false-->
+        <catchReflectException>true</catchReflectException>
+        <!--<catchReflectException>false</catchReflectException>-->
+
+        <!--是否检测补丁异常，自动回滚补丁-->
+        <rollbackWhenException>true</rollbackWhenException>
+
+        <!--是否在补丁加上log，建议上线的时候这个开关的值为false，测试的时候为true-->
+        <!--<patchLog>true</patchLog>-->
+        <patchLog>false</patchLog>
+
+        <!--项目是否支持progaurd-->
+        <proguard>false</proguard>
+        <!--<proguard>false</proguard>-->
+
+        <!--项目是否支持ASM进行插桩，默认使用ASM，推荐使用ASM，Javaassist在容易和其他字节码工具相互干扰-->
+        <useAsm>true</useAsm>
+        <!--<useAsm>false</useAsm>-->
+    </switch>
+
+    <!--需要热补的包名或者类名，这些包名下的所有类都被会插入代码-->
+    <!--这个配置项是各个APP需要自行配置，就是你们App里面你们自己代码的包名，
+    这些包名下的类会被Robust插入代码，没有被Robust插入代码的类Robust是无法修复的-->
+    <!-- !!!务必改为业务sdk的包名!!!! 格式为：com.feelschaotic.samplesdk-->
+    <packname name="hotfixPackage">
+        <name>com.feelschaotic.samplesdk</name>
+    </packname>
+
+    <!--不需要Robust插入代码的包名，Robust库不需要插入代码，如下的配置项请保留，还可以根据各个APP的情况执行添加-->
+    <exceptPackname name="exceptPackage">
+        <name>com.meituan.robust</name>
+        <name>com.meituan.sample.extension</name>
+        <name>com.feelschaotic.sdkhotfix</name>
+    </exceptPackname>
+
+    <!--补丁的包名，请保持和类PatchManipulateImp中fetchPatchList方法中设置的补丁类名保持一致（ setPatchesInfoImplClassFullName("com.meituan.robust.patch.PatchesInfoImpl")），
+    各个App可以独立定制，需要确保的是setPatchesInfoImplClassFullName设置的包名是如下的配置项，类名必须是：PatchesInfoImpl-->
+    <patchPackname name="patchPackname">
+        <name>com.feelschaotic.sdkhotfix.sdk.patch.PatchManipulateImp</name>
+    </patchPackname>
+
+    <!--自动化补丁中，不需要反射处理的类，这个配置项慎重选择-->
+    <noNeedReflectClass name="classes no need to reflect">
+
+    </noNeedReflectClass>
+</resources>

@@ -1,0 +1,37 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlin_version = '1.3.31'
+    repositories {
+        google()
+        jcenter()
+        //TODO:
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        // 接入第二步：导库
+        // Application模式下引入Robust脚本插件
+        if (isAppModule.toBoolean()) {
+            classpath 'com.meituan.robust:gradle-plugin:0.4.87.10'
+            classpath 'com.meituan.robust:auto-patch-plugin:0.4.87.10'
+        }
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        //TODO:
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

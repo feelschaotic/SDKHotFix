@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.feelschaotic.business_sdk"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+
+    if (isAppModule.toBoolean()) {
+        //这种情况下就不能引用项目了喂，需要引用sdk库，类似于这样
+        //  implementation 'com.feelschaotic.samplesdk:1.0.0'
+        //因为我把maven的配置删掉了，所以以本地aar的方式引入插桩的sdk（插桩意味着支持了热更新）
+        implementation fileTree(dir: 'libs', include: ['*.aar', '*.jar'], exclude: [])
+    } else {
+        // 默认用的是插桩的sdk1.0.0（有bug的sdk）
+        // 不要再问为什么改了samplesdk module代码运行不生效了！因为这里压根就没有直接引用module
+        // 为什么我不直接引用module（无插桩，不支持热更）？我怕有小伙伴拿着demo一跑就问我，为什么补丁没生效呀！？
+        implementation fileTree(dir: 'libs', include: ['*.aar', '*.jar'], exclude: [])
+    }
+
+}

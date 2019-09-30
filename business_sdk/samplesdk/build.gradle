@@ -1,0 +1,111 @@
+// 接入第一步：增加配置
+//注意！！一定要放在文件最前面
+// apply plugin表示该项目会使用指定的插件,sdk对应的是com.android.library
+if (isAppModule.toBoolean()) {
+    apply plugin: 'com.android.application'
+    if (isPatchModule.toBoolean()) {
+        //制作补丁时将这个打开，auto-patch-plugin紧跟着com.android.application
+        apply plugin: 'auto-patch-plugin'
+    }
+    apply plugin: 'robust'
+} else {
+    apply plugin: 'com.android.library'
+}
+apply from: rootProject.getRootDir().getAbsolutePath() + "/packPlugin.gradle"
+
+apply plugin: 'maven'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        // 接入第一步：配置好混淆文件，记得要修改lib-proguard-rules.pro中的包名
+        consumerProguardFiles 'lib-proguard-rules.pro'
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        buildConfigField "String", "SDK_VERSION", "\"${SDK_VERSION}\""
+        buildConfigField "String", "SDK_ARTIFACT_ID", "\"${SDK_ARTIFACT_ID}\""
+    }
+
+    // 接入第一步：配置好混淆、签名和sourceSets
+
+    // 签名的配置
+    signingConfigs {
+        debug {
+
+        }
+        // release版本的签名
+        release {
+            // 签名的一些信息
+            keyAlias 'key0'
+            keyPassword '123456'
+            storeFile file('./hotfix.jks')
+            storePassword '123456'
+        }
+    }
+
+    buildTypes {
+        innerTest {
+            //...
+            matchingFallbacks = ['debug', 'release']
+        }
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled isProguard.toBoolean()
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+            // Application和Library清单文件处理方式不同
+            if (isAppModule.toBoolean()) {
+                manifest.srcFile 'src/main/debug/AndroidManifest.xml'
+            } else {
+                manifest.srcFile 'src/main/release/AndroidManifest.xml'
+            }
+
+        }
+    }
+
+    lintOptions{
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            snapshotRepository(url: MAVEN_REPO_RELEASE_URL) {
+                authentication(userName: NEXUS_USERNAME, password: NEXUS_PASSWORD)
+            }
+            repository(url: MAVEN_REPO_RELEASE_URL) {
+                authentication(userName: NEXUS_USERNAME, password: NEXUS_PASSWORD)
+            }
+            // 接入第一步，抽取你的uploadArchives配置
+            pom.project {
+                version SDK_VERSION
+                artifactId SDK_ARTIFACT_ID
+                groupId GROUP_ID
+                packaging TYPE
+                description DESCRIPTION
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    // 接入第二步：导库
+    //TODO: implementation 'com.feelschaotic.sdkhotfix:SDK-HOTFIX:1.0.0'
+}
