@@ -28,6 +28,7 @@ object PatchManager {
     private val context = HotfixManager.getApplication()
     private const val TAG = "sdk-patch"
     private var localPatchInfo: com.feelschaotic.sdkhotfix.sdk.entity.CheckVersionRespData? = null
+
     /**
      * 加载补丁，进行补丁逻辑管理
      * 1. 如果有补丁则加载本地补丁

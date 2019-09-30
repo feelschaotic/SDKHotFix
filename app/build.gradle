@@ -27,6 +27,7 @@ android {
             dirs 'libs'
         }
     }
+    useLibrary 'org.apache.http.legacy'
 }
 
 dependencies {

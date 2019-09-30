@@ -1,11 +1,12 @@
 package com.feelschaotic.upload
 
 import com.alibaba.fastjson.JSONObject
-import com.feelschaotic.crypto.EncryptManager
+import com.feelschaotic.crypto.crypto.EncryptManager
+import com.feelschaotic.upload.utils.EncryptUtil
 import org.gradle.api.DefaultTask
 import org.gradle.api.tasks.TaskAction
 
-class UploadPatchTaskDebug extends DefaultTask {
+class UploadPatchTask extends DefaultTask {
     def rootDir = project.rootDir.path
     def patchName = "patch.jar"
     def patchPath
@@ -14,7 +15,7 @@ class UploadPatchTaskDebug extends DefaultTask {
     def uploadService = new UploadService()
 
     def ossConfig
-    def HOTFIX_SERVER_URL
+    def config
 
     @TaskAction
     def upload() {
@@ -26,11 +27,15 @@ class UploadPatchTaskDebug extends DefaultTask {
         /*发布脚本和测试脚本的唯一区别：常量配置的取值不同*/
         def buildConfigUtil = new com.feelschaotic.upload.utils.BuildConfigUtil(project)
         ossConfig = new OssConfig()
-        ossConfig.accessKeyId = buildConfigUtil.getDebugBuildType("ACCESS_ID")
-        ossConfig.buckName = buildConfigUtil.getDebugBuildType("BUCK_NAME")
-        ossConfig.accessKeySecret = buildConfigUtil.getDebugBuildType("SECRET_KEY")
-        ossConfig.endpoint = buildConfigUtil.getDebugBuildType("END_POINT")
-        HOTFIX_SERVER_URL = buildConfigUtil.getDebugBuildType("HOTFIX_SERVER_URL")
+        ossConfig.accessKeyId = buildConfigUtil.getReleaseBuildType("ACCESS_ID")
+        ossConfig.buckName = buildConfigUtil.getReleaseBuildType("BUCK_NAME")
+        ossConfig.accessKeySecret = buildConfigUtil.getReleaseBuildType("SECRET_KEY")
+        ossConfig.endpoint = buildConfigUtil.getReleaseBuildType("END_POINT")
+
+        config = new Config()
+        config.serverUrl = buildConfigUtil.getReleaseBuildType("HOTFIX_SERVER_URL") + "create"
+        config.applicationId = buildConfigUtil.getReleaseBuildType("BMOB_APPLICATION_ID")
+        config.restApiKey = buildConfigUtil.getReleaseBuildType("REST_API_KEY")
 
         patchPath = rootDir + File.separator + patchName
     }
@@ -45,7 +50,7 @@ class UploadPatchTaskDebug extends DefaultTask {
     }
 
     def encryptPatch() {
-        def clientAesKey = new com.feelschaotic.upload.utils.EncryptUtil().getRandomString(16)
+        def clientAesKey = new EncryptUtil().getRandomString(16)
         println "--clientAesKey: ${clientAesKey}"
 
         byte[] encryptBytes = EncryptManager.getInstance().encryptByAes(byteUtil.fileToBytes(patchPath), clientAesKey.getBytes())
@@ -75,13 +80,13 @@ class UploadPatchTaskDebug extends DefaultTask {
      */
     def updateServerPatchInfo(String objectName, long fileSize, String encryptKey) {
 
-        uploadService.updatePatchInfo(HOTFIX_SERVER_URL + "/create"
+        uploadService.updatePatchInfo(config
                 , createPatch(objectName, fileSize, encryptKey)
                 , new OnResponseListener<String>() {
             @Override
             def onSuccess(String response) {
                 JSONObject jsonObj = JSONObject.parse(response)
-                if (jsonObj.get("code") != 0) {
+                if (jsonObj.getJSONObject("result").get("code") != 0) {
                     println "--【警告】上传补丁信息到服务端失败,response如下:"
                     println response
                     return

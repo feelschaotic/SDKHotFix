@@ -7,14 +7,11 @@ class Patch {
     @JSONField(name = "bundlename")
     public def bundlename
 
-    @JSONField(name = "bundleversion")
-    public def bundleversion = "0"
+    @JSONField(name = "packagename")
+    public def packagename
 
     @JSONField(name = "version")
     public def version
-
-    @JSONField(name = "packagename")
-    public def packagename
 
     @JSONField(name = "bundledescribe")
     public def bundledescribe

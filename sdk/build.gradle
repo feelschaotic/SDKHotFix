@@ -17,19 +17,23 @@ android {
     buildTypes {
         publishNonDefault false
         debug {
-            buildConfigField "String", "HOTFIX_SERVER_URL", "\"TODO\""
-            buildConfigField "String", "ACCESS_ID", "\"TODO\""
-            buildConfigField "String", "BUCK_NAME", "\"TODO\""
-            buildConfigField "String", "SECRET_KEY", "\"TODO\""
-            buildConfigField "String", "END_POINT", "\"TODO\""
+            // 可能测试环境和正式环境分离 到时候再扩展吧
+            buildConfigField "String", "HOTFIX_SERVER_URL", "\"https://api.bmob.cn/1/functions/\""
+            buildConfigField "String", "REST_API_KEY", "\"eea64ff2521260acbae5305889a00ed4\""
+            buildConfigField "String", "BMOB_APPLICATION_ID", "\"6858e5a9b06a8e62b2ffdfc1ce83b843\""
+            buildConfigField "String", "ACCESS_ID", "\"LTAI4Fx9ecT1eH86xzRKt2Yc\""
+            buildConfigField "String", "BUCK_NAME", "\"sdkhotfix-app\""
+            buildConfigField "String", "SECRET_KEY", "\"JtMMOLEtwxTZe31soVgKGpVbwovUP8\""
+            buildConfigField "String", "END_POINT", "\"https://oss-cn-shenzhen.aliyuncs.com\""
         }
         release {
-            buildConfigField "String", "HOTFIX_SERVER_URL", "\"TODO\""
-            buildConfigField "String", "ACCESS_ID", "\"TODO\""
-            buildConfigField "String", "BUCK_NAME", "\"TODO\""
-            buildConfigField "String", "SECRET_KEY", "\"TODO\""
-            buildConfigField "String", "END_POINT", "\"TODO\""
-
+            buildConfigField "String", "HOTFIX_SERVER_URL", "\"https://api.bmob.cn/1/functions/\""
+            buildConfigField "String", "REST_API_KEY", "\"eea64ff2521260acbae5305889a00ed4\""
+            buildConfigField "String", "BMOB_APPLICATION_ID", "\"6858e5a9b06a8e62b2ffdfc1ce83b843\""
+            buildConfigField "String", "ACCESS_ID", "\"LTAI4Fx9ecT1eH86xzRKt2Yc\""
+            buildConfigField "String", "BUCK_NAME", "\"sdkhotfix-app\""
+            buildConfigField "String", "SECRET_KEY", "\"JtMMOLEtwxTZe31soVgKGpVbwovUP8\""
+            buildConfigField "String", "END_POINT", "\"https://oss-cn-shenzhen.aliyuncs.com\""
             minifyEnabled isProguard.toBoolean()
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -77,7 +81,11 @@ dependencies {
     compile 'com.squareup.okio:okio:1.12.0+'
 
     compile 'com.aliyun.dpa:oss-android-sdk:+'
-    //TODO 加密库
+    compile 'com.feelschaotic.sdk:crypto:1.0'
+
+    compile "io.reactivex.rxjava2:rxjava:2.2.2"
+    compile 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    compile 'com.google.code.gson:gson:2.8.5'
 }
 repositories {
     mavenCentral()

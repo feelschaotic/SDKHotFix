@@ -19,11 +19,17 @@ class UploadService {
                 .build()
     }
 
-    def updatePatchInfo(String url, Patch patchInfo, OnResponseListener<String> listener) {
+    def updatePatchInfo(Config config, Patch patchInfo, OnResponseListener<String> listener) {
         try {
             def requestJson = JSON.toJSONString(patchInfo)
-            def request = new Request.Builder().url(url).post(RequestBody.create(MediaType.get("application/json; charset=utf-8"), requestJson)).build()
-            println "--发起请求 url:${url} \n requestJson:${requestJson}"
+
+            def request = new Request.Builder()
+                    .url(config.serverUrl)
+                    .header("X-Bmob-Application-Id", config.applicationId)
+                    .header("X-Bmob-REST-API-Key", config.restApiKey)
+                    .header("Content-Type", "application/json")
+                    .post(RequestBody.create(MediaType.get("application/json; charset=utf-8"), requestJson)).build()
+            println "--发起请求 url:${config.serverUrl} \n requestJson:${requestJson}"
             def response = client.newCall(request).execute()
             if (listener != null) {
                 listener.onSuccess(response.body().string())
