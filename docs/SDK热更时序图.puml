@@ -1,0 +1,32 @@
+@startuml
+skinparam sequence {
+	ArrowColor #36648B
+	ActorBorderColor #36648B
+        LifeLineBorderColor #36648B
+	LifeLineBackgroundColor white
+	ParticipantBorderColor #36648B
+	ParticipantBackgroundColor #36648B
+	ParticipantFontName 微软雅黑
+	ParticipantFontSize 18
+	ParticipantFontColor white
+	ActorBackgroundColor #36648B
+	ActorFontColor #36648B
+	ActorFontSize 18
+	ActorFontName 微软雅黑
+}
+
+== 补丁下发 ==
+
+ autonumber
+ Client -[#4D4D4D]> Server : 启动时，检查更新
+ Server --[#4D4D4D]> Client: 返回最新的补丁信息
+ Client -[#4D4D4D]> 阿里云OSS : 获得oss地址，下载补丁
+ 阿里云OSS --[#4D4D4D]> Client : 补丁下载结果
+
+== 补丁上传 ==
+ autonumber
+ Client -[#4D4D4D]> 阿里云OSS : 上传补丁
+ 阿里云OSS --[#4D4D4D]> Client : 返回补丁地址
+ Client -[#4D4D4D]> Server : 发送 补丁下载地址+补丁信息
+ Server -[#4D4D4D]> Server : 更新补丁版本
+@enduml
