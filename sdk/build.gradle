@@ -43,6 +43,12 @@ android {
         sourceCompatibility 1.7
         targetCompatibility 1.7
     }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
 }
 
 uploadArchives {
@@ -73,9 +79,11 @@ dependencies {
 
     compile 'com.android.support:appcompat-v7:27.1.1'
     testCompile 'junit:junit:4.12'
+
     compile 'com.tencent:mmkv:1.0.10'
-    compile 'com.meituan.robust:robust:0.4.87.10'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+
+    compile(name: 'robust-0.4.87.10', ext: 'aar')
     compile 'com.alibaba:fastjson:1.2.46+'
     compile 'com.squareup.okhttp3:okhttp:3.4.0+'
     compile 'com.squareup.okio:okio:1.12.0+'
