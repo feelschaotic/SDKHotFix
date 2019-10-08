@@ -1,0 +1,93 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml
+		INJECTED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml
+		INJECTED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml
+		INJECTED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:5:5-75
+	android:name
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:5:22-72
+uses-permission#android.permission.INTERNET
+ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.READ_LOGS
+ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:9:22-65
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:10:5-83
+	android:name
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:10:22-80
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:13:5-84
+	android:name
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:13:22-81
+application
+ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:15:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\yangenhui\.android\build-cache\7fac830f03aad32cdc730912b4f29c2ad42f04c5\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:19:9-41
+	android:supportsRtl
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:21:9-35
+	android:roundIcon
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:20:9-54
+	android:allowBackup
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:17:9-35
+	android:icon
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:18:9-43
+	android:name
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:16:9-38
+activity#com.feelschaotic.sdkhotfix.MainActivity
+ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:22:9-27:20
+	android:name
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:22:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml:25:27-74
+uses-sdk
+INJECTED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\yangenhui\.android\build-cache\7fac830f03aad32cdc730912b4f29c2ad42f04c5\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\yangenhui\.android\build-cache\ff4798c8438077ce56d0e4cb0911db89ed958fa3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\yangenhui\.android\build-cache\f5d984295e808c59f077379963deb3289d3dd829\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\yangenhui\.android\build-cache\41f8aeed61fda0c3d69c54ee843f7fc927365cac\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\yangenhui\.android\build-cache\96313d2fd1e74cce47d428a31586be35cb599549\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\yangenhui\.android\build-cache\0cab46620589009cd820e5e974e27d1eb78a3c0a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\yangenhui\.android\build-cache\65304e1b6148042b6e21fd4d5ee8b59e18d42a0f\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\yangenhui\.android\build-cache\da17c616beab0a8d6c9ae5384400c2a2351064ef\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\yangenhui\.android\build-cache\e54ab4726a88dbc1b0640598d5182bbc7fbd1f08\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\yangenhui\.android\build-cache\106688c9db7f8c48bb5060d6474deff6f69d3871\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\yangenhui\.android\build-cache\17e139bcb394802c24e56eaec1ecfdd657b56df4\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\yangenhui\.android\build-cache\be9769f544811c85af1b01bff4b097750de2b4c4\output\AndroidManifest.xml:20:5-44
+MERGED from [:hot-fix-sdk.1.0:] C:\Users\yangenhui\.android\build-cache\e81ea97dc51093ffaeb09cf2e791e83391fae1fe\output\AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		INJECTED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml
+		INJECTED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml
+		INJECTED from E:\CodeBackup\SDKHotfix\app\src\main\AndroidManifest.xml

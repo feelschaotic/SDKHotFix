@@ -1,0 +1,368 @@
+[
+    {
+        "outputFile": "E:\\CodeBackup\\SDKHotfix\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-si\\values-si.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 109,
+                    "endOffset": 210
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 109,
+                        "endOffset": 210
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 215,
+                    "endColumn": 106,
+                    "endOffset": 317
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 215,
+                        "endColumn": 106,
+                        "endOffset": 317
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 322,
+                    "endColumn": 106,
+                    "endOffset": 424
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 322,
+                        "endColumn": 106,
+                        "endOffset": 424
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 429,
+                    "endColumn": 87,
+                    "endOffset": 512
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 429,
+                        "endColumn": 87,
+                        "endOffset": 512
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 517,
+                    "endColumn": 104,
+                    "endOffset": 617
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 517,
+                        "endColumn": 104,
+                        "endOffset": 617
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 622,
+                    "endColumn": 115,
+                    "endOffset": 733
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 622,
+                        "endColumn": 115,
+                        "endOffset": 733
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 738,
+                    "endColumn": 88,
+                    "endOffset": 822
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 738,
+                        "endColumn": 88,
+                        "endOffset": 822
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 827,
+                    "endColumn": 86,
+                    "endOffset": 909
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 827,
+                        "endColumn": 86,
+                        "endOffset": 909
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 914,
+                    "endColumn": 83,
+                    "endOffset": 993
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 914,
+                        "endColumn": 83,
+                        "endOffset": 993
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 998,
+                    "endColumn": 108,
+                    "endOffset": 1102
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 998,
+                        "endColumn": 108,
+                        "endOffset": 1102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1107,
+                    "endColumn": 104,
+                    "endOffset": 1207
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1107,
+                        "endColumn": 104,
+                        "endOffset": 1207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1212,
+                    "endColumn": 97,
+                    "endOffset": 1305
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1212,
+                        "endColumn": 97,
+                        "endOffset": 1305
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1310,
+                    "endColumn": 109,
+                    "endOffset": 1415
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1310,
+                        "endColumn": 109,
+                        "endOffset": 1415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1420,
+                    "endColumn": 98,
+                    "endOffset": 1514
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1420,
+                        "endColumn": 98,
+                        "endOffset": 1514
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1519,
+                    "endColumn": 105,
+                    "endOffset": 1620
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1519,
+                        "endColumn": 105,
+                        "endOffset": 1620
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1625,
+                    "endColumn": 158,
+                    "endOffset": 1779
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1625,
+                        "endColumn": 158,
+                        "endOffset": 1779
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1784,
+                    "endColumn": 98,
+                    "endOffset": 1878
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1784,
+                        "endColumn": 98,
+                        "endOffset": 1878
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1883,
+                    "endColumn": 81,
+                    "endOffset": 1960
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1883,
+                        "endColumn": 81,
+                        "endOffset": 1960
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1965,
+                    "endColumn": 100,
+                    "endOffset": 2061
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\17e139bcb394802c24e56eaec1ecfdd657b56df4\\output\\res\\values-si\\values-si.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    }
+]

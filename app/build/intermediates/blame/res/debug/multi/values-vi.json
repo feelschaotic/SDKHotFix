@@ -1,0 +1,368 @@
+[
+    {
+        "outputFile": "E:\\CodeBackup\\SDKHotfix\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 113,
+                    "endOffset": 214
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 113,
+                        "endOffset": 214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 219,
+                    "endColumn": 107,
+                    "endOffset": 322
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 219,
+                        "endColumn": 107,
+                        "endOffset": 322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 327,
+                    "endColumn": 108,
+                    "endOffset": 431
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 327,
+                        "endColumn": 108,
+                        "endOffset": 431
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 436,
+                    "endColumn": 83,
+                    "endOffset": 515
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 436,
+                        "endColumn": 83,
+                        "endOffset": 515
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 520,
+                    "endColumn": 102,
+                    "endOffset": 618
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 520,
+                        "endColumn": 102,
+                        "endOffset": 618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 623,
+                    "endColumn": 118,
+                    "endOffset": 737
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 623,
+                        "endColumn": 118,
+                        "endOffset": 737
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 742,
+                    "endColumn": 76,
+                    "endOffset": 814
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 742,
+                        "endColumn": 76,
+                        "endOffset": 814
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 819,
+                    "endColumn": 76,
+                    "endOffset": 891
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 819,
+                        "endColumn": 76,
+                        "endOffset": 891
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 896,
+                    "endColumn": 83,
+                    "endOffset": 975
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 896,
+                        "endColumn": 83,
+                        "endOffset": 975
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 980,
+                    "endColumn": 103,
+                    "endOffset": 1079
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 980,
+                        "endColumn": 103,
+                        "endOffset": 1079
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1084,
+                    "endColumn": 108,
+                    "endOffset": 1188
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1084,
+                        "endColumn": 108,
+                        "endOffset": 1188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1193,
+                    "endColumn": 100,
+                    "endOffset": 1289
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1193,
+                        "endColumn": 100,
+                        "endOffset": 1289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1294,
+                    "endColumn": 104,
+                    "endOffset": 1394
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1294,
+                        "endColumn": 104,
+                        "endOffset": 1394
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1399,
+                    "endColumn": 113,
+                    "endOffset": 1508
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1399,
+                        "endColumn": 113,
+                        "endOffset": 1508
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1513,
+                    "endColumn": 104,
+                    "endOffset": 1613
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1513,
+                        "endColumn": 104,
+                        "endOffset": 1613
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1618,
+                    "endColumn": 156,
+                    "endOffset": 1770
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1618,
+                        "endColumn": 156,
+                        "endOffset": 1770
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1775,
+                    "endColumn": 98,
+                    "endOffset": 1869
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1775,
+                        "endColumn": 98,
+                        "endOffset": 1869
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1874,
+                    "endColumn": 83,
+                    "endOffset": 1953
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1874,
+                        "endColumn": 83,
+                        "endOffset": 1953
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1958,
+                    "endColumn": 100,
+                    "endOffset": 2054
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\17e139bcb394802c24e56eaec1ecfdd657b56df4\\output\\res\\values-vi\\values-vi.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    }
+]

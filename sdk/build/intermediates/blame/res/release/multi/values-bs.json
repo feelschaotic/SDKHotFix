@@ -1,0 +1,368 @@
+[
+    {
+        "outputFile": "E:\\CodeBackup\\SDKHotfix\\sdk\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-bs\\values-bs.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 118,
+                    "endOffset": 219
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 118,
+                        "endOffset": 219
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 224,
+                    "endColumn": 108,
+                    "endOffset": 328
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 224,
+                        "endColumn": 108,
+                        "endOffset": 328
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 333,
+                    "endColumn": 106,
+                    "endOffset": 435
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 333,
+                        "endColumn": 106,
+                        "endOffset": 435
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 440,
+                    "endColumn": 85,
+                    "endOffset": 521
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 440,
+                        "endColumn": 85,
+                        "endOffset": 521
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 526,
+                    "endColumn": 103,
+                    "endOffset": 625
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 526,
+                        "endColumn": 103,
+                        "endOffset": 625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 630,
+                    "endColumn": 121,
+                    "endOffset": 747
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 630,
+                        "endColumn": 121,
+                        "endOffset": 747
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 752,
+                    "endColumn": 81,
+                    "endOffset": 829
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 752,
+                        "endColumn": 81,
+                        "endOffset": 829
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 834,
+                    "endColumn": 80,
+                    "endOffset": 910
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 834,
+                        "endColumn": 80,
+                        "endOffset": 910
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 915,
+                    "endColumn": 85,
+                    "endOffset": 996
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 915,
+                        "endColumn": 85,
+                        "endOffset": 996
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1001,
+                    "endColumn": 102,
+                    "endOffset": 1099
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1001,
+                        "endColumn": 102,
+                        "endOffset": 1099
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1104,
+                    "endColumn": 104,
+                    "endOffset": 1204
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1104,
+                        "endColumn": 104,
+                        "endOffset": 1204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1209,
+                    "endColumn": 97,
+                    "endOffset": 1302
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1209,
+                        "endColumn": 97,
+                        "endOffset": 1302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1307,
+                    "endColumn": 104,
+                    "endOffset": 1407
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1307,
+                        "endColumn": 104,
+                        "endOffset": 1407
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1412,
+                    "endColumn": 112,
+                    "endOffset": 1520
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1412,
+                        "endColumn": 112,
+                        "endOffset": 1520
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1525,
+                    "endColumn": 104,
+                    "endOffset": 1625
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1525,
+                        "endColumn": 104,
+                        "endOffset": 1625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1630,
+                    "endColumn": 174,
+                    "endOffset": 1800
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1630,
+                        "endColumn": 174,
+                        "endOffset": 1800
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1805,
+                    "endColumn": 96,
+                    "endOffset": 1897
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1805,
+                        "endColumn": 96,
+                        "endOffset": 1897
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1902,
+                    "endColumn": 83,
+                    "endOffset": 1981
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\ff4798c8438077ce56d0e4cb0911db89ed958fa3\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1902,
+                        "endColumn": 83,
+                        "endOffset": 1981
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1986,
+                    "endColumn": 100,
+                    "endOffset": 2082
+                },
+                "from": {
+                    "file": "C:\\Users\\yangenhui\\.android\\build-cache\\17e139bcb394802c24e56eaec1ecfdd657b56df4\\output\\res\\values-bs\\values-bs.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    }
+]

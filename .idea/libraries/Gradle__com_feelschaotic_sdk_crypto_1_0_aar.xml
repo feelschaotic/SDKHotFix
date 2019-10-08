@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.feelschaotic.sdk:crypto:1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/4286020c0204def2f2b51d3fea6d9ebec53a7afb/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/4286020c0204def2f2b51d3fea6d9ebec53a7afb/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-all/1uhold01nvsn0ot7oxetcgko1/caches/modules-2/files-2.1/com.feelschaotic.sdk/crypto/1.0/26dd5fae674b7c3df83f13be95b9771272630828/crypto-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

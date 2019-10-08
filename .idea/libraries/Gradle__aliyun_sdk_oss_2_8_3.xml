@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: aliyun-sdk-oss-2.8.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/buildSrc/libs/aliyun-sdk-oss-2.8.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

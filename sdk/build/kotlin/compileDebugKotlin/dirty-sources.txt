@@ -1,0 +1,16 @@
+E:\CodeBackup\SDKHotfix\sdk\src\main\java\com\feelschaotic\sdkhotfix\sdk\const\Const.kt
+E:\CodeBackup\SDKHotfix\sdk\src\main\java\com\feelschaotic\sdkhotfix\sdk\exception\ConfigNotSetException.kt
+E:\CodeBackup\SDKHotfix\sdk\src\main\java\com\feelschaotic\sdkhotfix\sdk\HotfixManager.kt
+E:\CodeBackup\SDKHotfix\sdk\src\main\java\com\feelschaotic\sdkhotfix\sdk\service\ServiceManager.kt
+E:\CodeBackup\SDKHotfix\sdk\src\main\java\com\feelschaotic\sdkhotfix\sdk\patch\PatchManipulateImp.kt
+E:\CodeBackup\SDKHotfix\sdk\src\main\java\com\feelschaotic\sdkhotfix\sdk\service\ResponListener.kt
+E:\CodeBackup\SDKHotfix\sdk\src\main\java\com\feelschaotic\sdkhotfix\sdk\service\PatchService.kt
+E:\CodeBackup\SDKHotfix\sdk\src\main\java\com\feelschaotic\sdkhotfix\sdk\utils\PPSharePreferenceHelper.kt
+E:\CodeBackup\SDKHotfix\sdk\src\main\java\com\feelschaotic\sdkhotfix\sdk\statistics\StatisticsManager.kt
+E:\CodeBackup\SDKHotfix\sdk\src\main\java\com\feelschaotic\sdkhotfix\sdk\HotfixConfig.kt
+E:\CodeBackup\SDKHotfix\sdk\src\main\java\com\feelschaotic\sdkhotfix\sdk\patch\PatchManager.kt
+E:\CodeBackup\SDKHotfix\sdk\src\main\java\com\feelschaotic\sdkhotfix\sdk\statistics\StatisticsConstants.kt
+E:\CodeBackup\SDKHotfix\sdk\src\main\java\com\feelschaotic\sdkhotfix\sdk\statistics\StatisticsListener.kt
+E:\CodeBackup\SDKHotfix\sdk\src\main\java\com\feelschaotic\sdkhotfix\sdk\service\RetryInterceptor.kt
+E:\CodeBackup\SDKHotfix\sdk\src\main\java\com\feelschaotic\sdkhotfix\sdk\service\FileDownloader.kt
+E:\CodeBackup\SDKHotfix\sdk\src\main\java\com\feelschaotic\sdkhotfix\sdk\utils\ByteUtil.kt

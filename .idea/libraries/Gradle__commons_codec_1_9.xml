@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: commons-codec-1.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/buildSrc/libs/commons-codec-1.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

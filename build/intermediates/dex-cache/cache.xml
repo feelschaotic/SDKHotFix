@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.gradle\wrapper\dists\gradle-3.3-all\1uhold01nvsn0ot7oxetcgko1\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.1.2-4\3f5f1498bdbb9611cb1413f794b3a3a5a6edef34\kotlin-stdlib-1.1.2-4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3f5f1498bdbb9611cb1413f794b3a3a5a6edef34">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\kotlin-stdlib-1.1.2-4_c973dea183112ffec46ab0b12f0236065e0c8484.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.android\build-cache\a7514c0f271b75133a0669846caa3c3a410ff6de\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="37d3f9a065d98926697160993997927884e630f2">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_8271279e6c7483ed216536e8f9bc0067b24da5f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.gradle\wrapper\dists\gradle-3.3-all\1uhold01nvsn0ot7oxetcgko1\caches\modules-2\files-2.1\com.android.support\support-annotations\27.1.1\39ded76b5e1ce1c5b2688e1d25cdc20ecee32007\support-annotations-27.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\support-annotations-27.1.1_8ab3544751a9ba471f34895ed19a3aad62e88571.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.android\build-cache\0cab46620589009cd820e5e974e27d1eb78a3c0a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_215d53b1492f80b312f38eb9e86a7d36909c42f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.gradle\wrapper\dists\gradle-3.3-all\1uhold01nvsn0ot7oxetcgko1\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.2.2\db2277cb0641bd8bd2f491fab555d37345351d6\rxjava-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0db2277cb0641bd8bd2f491fab555d37345351d6">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\rxjava-2.2.2_9830a5a99e17374444940cc30322f44dc69778c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.android\build-cache\41f8aeed61fda0c3d69c54ee843f7fc927365cac\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8a9fd7c97f1d13f97f3b52f9d2e54cd857d5acf9">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_878a9b873049751c16cad98c54086accdbae2a93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.android\build-cache\02ce707757b8b70d5f055fc5dfa938d2b6cd6a47\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="81ae0ca929a290404b0e2587bd9ac08335201727">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_f97c35a02953e218436c9e49905427f85fb7194f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.gradle\wrapper\dists\gradle-3.3-all\1uhold01nvsn0ot7oxetcgko1\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\common-1.1.0_0e7ce686723562cb16b1abacad45cef469f6248a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.gradle\wrapper\dists\gradle-3.3-all\1uhold01nvsn0ot7oxetcgko1\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.11.0\75966e05a49046ca2ae734e5626f28837a8d1e82\okhttp-3.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="75966e05a49046ca2ae734e5626f28837a8d1e82">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\okhttp-3.11.0_8594dfe31c5e038a9be264901c5f2945845c68dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.gradle\wrapper\dists\gradle-3.3-all\1uhold01nvsn0ot7oxetcgko1\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.0\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0edf3f7bfb84a7521d0599efa3b0113a0ee90f85">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\common-1.1.0_5b4be9f437a2df92880beb2eff0c5ede1184844c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.android\build-cache\ff4798c8438077ce56d0e4cb0911db89ed958fa3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d968b9bd0011800e0d333d1571b8d34bcb8a0b6e">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_691df02628be4d782d6e1c285fb244619cb56da7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.gradle\wrapper\dists\gradle-3.3-all\1uhold01nvsn0ot7oxetcgko1\caches\modules-2\files-2.1\com.meituan.robust\autopatchbase\0.4.87.10\666aabad50642f6a804d6b453087c248d2427c04\autopatchbase-0.4.87.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="666aabad50642f6a804d6b453087c248d2427c04">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\autopatchbase-0.4.87.10_012a88191d58fcce0865a3dacd8c5e0ef32474ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.android\build-cache\080b8471a1f4315f1f40c87f99f186640bdb58d5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="f49ab11613e29eb9f36266c78b7d5440bc688be0">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_ffa3acbc064705b418620cc95a045b0c64a2842f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.android\build-cache\e54ab4726a88dbc1b0640598d5182bbc7fbd1f08\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="874f1143c11f5d38533efe512bf913e3e847e7df">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_a6a358330a01e3130198da92ea6eb2090335b0f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.android\build-cache\7fac830f03aad32cdc730912b4f29c2ad42f04c5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_a93d75ed78fb3a878412d1f59d0e59555658b7e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.android\build-cache\106688c9db7f8c48bb5060d6474deff6f69d3871\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ec657bb192b20229696216bf233779b16bf75a54">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_8c451db9750b098bec8bb796903534ab6a14dc4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.gradle\wrapper\dists\gradle-3.3-all\1uhold01nvsn0ot7oxetcgko1\caches\modules-2\files-2.1\com.alibaba\fastjson\1.2.46\1510c47faaf3d484221ab20e4ec9d42cfa4984cb\fastjson-1.2.46.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="1510c47faaf3d484221ab20e4ec9d42cfa4984cb">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\fastjson-1.2.46_4edbf5b7a1df9e2b74922f890238803d18fe2eee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.gradle\wrapper\dists\gradle-3.3-all\1uhold01nvsn0ot7oxetcgko1\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.2\323964c36556eb0e6209f65c1cef72b53b461ab8\reactive-streams-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="323964c36556eb0e6209f65c1cef72b53b461ab8">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\reactive-streams-1.0.2_34cde4f884f6d72108d2a42c84056f1b8ef9b93d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.android\build-cache\da17c616beab0a8d6c9ae5384400c2a2351064ef\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c9a721adcd7dbae7a197b0ef81102336539f63ff">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_fd875c2cccb465a799a059f4bfdfa509bb8cce27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.android\build-cache\8dcd078f04237a16f92082f033cbf2ee6b16884e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0f8cadd5f7c6546302b9094c70c022cedc7aaa42">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_60035f2459b13af92eeb7e2998cae46933f03a7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.android\build-cache\be9769f544811c85af1b01bff4b097750de2b4c4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_8269053c6a7fc4012c2dc48da8052a2a509e7f55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.android\build-cache\4286020c0204def2f2b51d3fea6d9ebec53a7afb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="193ef8471d513b1151579622f316d2056436c9a6">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_eea1bb5f280e536a810bc7f954651ac11d251d3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.android\build-cache\f5d984295e808c59f077379963deb3289d3dd829\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3304d33470ff64cf83bce9189ff3648a42eb2aa7">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_b31174707075e179a6b43ef8f34c105549706da5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.gradle\wrapper\dists\gradle-3.3-all\1uhold01nvsn0ot7oxetcgko1\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="919f0dfe192fb4e063e7dacadee7f8bb9a2672a9">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\annotations-13.0_df164fee5f55413b6d7eafd8128c0ec14f3766a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.gradle\wrapper\dists\gradle-3.3-all\1uhold01nvsn0ot7oxetcgko1\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jre7\1.1.2-4\e6a7403299b8f3126e3a1576c02e3f07ae5af6fa\kotlin-stdlib-jre7-1.1.2-4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e6a7403299b8f3126e3a1576c02e3f07ae5af6fa">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\kotlin-stdlib-jre7-1.1.2-4_a5883e9884e3efbbb99c48190a19dac408e39ebe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.android\build-cache\65304e1b6148042b6e21fd4d5ee8b59e18d42a0f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2feadd535770271ca57b7b431f42151aa4af324a">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_20a27f92c18c9a0d8a5552135b252970139e5906.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.gradle\wrapper\dists\gradle-3.3-all\1uhold01nvsn0ot7oxetcgko1\caches\modules-2\files-2.1\com.squareup.okio\okio\1.14.0\102d7be47241d781ef95f1581d414b0943053130\okio-1.14.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="102d7be47241d781ef95f1581d414b0943053130">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\okio-1.14.0_526211df1655d68734126ca2311587767441bf94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.android\build-cache\96313d2fd1e74cce47d428a31586be35cb599549\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="71d380aeac037e63bab7bda2ba211777e16a2f42">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_c5c983f3e688d65c699c8f23b4ba995deca39fd4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.gradle\wrapper\dists\gradle-3.3-all\1uhold01nvsn0ot7oxetcgko1\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.5\f645ed69d595b24d4cf8b3fbb64cc505bede8829\gson-2.8.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="f645ed69d595b24d4cf8b3fbb64cc505bede8829">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\gson-2.8.5_6536f63eb26824c9ff4858ab37aefd3ff6efc60f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyAllSoft\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_af71d4ec38d8edcf49f1cbd32700dc30ebeefd29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\CodeBackup\SDKHotfix\sdk\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8dde7ab3733188c8acd3e9921debeaf1ae8555d8">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_579330a351fcd91bd80f270db15dc9d164584177.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yangenhui\.android\build-cache\17e139bcb394802c24e56eaec1ecfdd657b56df4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="23dcb4803d3103bde3f3f5db978a726338fe49ae">
+        <dex dex="E:\CodeBackup\SDKHotfix\app\build\intermediates\pre-dexed\debug\classes_19ed4d60f0bf52a8172e4c58aa88be35af77d49e.jar" />
+    </item>
+
+</items>

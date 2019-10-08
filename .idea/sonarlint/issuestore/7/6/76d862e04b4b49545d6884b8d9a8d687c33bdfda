@@ -1,0 +1,27 @@
+
+gsquid:HiddenFieldCheck–"=Rename "alphabet" which hides the field declared at line 239.(êå˜ê8…øû…½-
+isquid:HiddenFieldCheckà":Rename "count" which hides the field declared at line 574.(İ’´Îøÿÿÿÿ8…øû…½-
+osquid:CommentedOutCodeLineë"<This block of commented-out lines of code should be removed.(ËÏ¸úÿÿÿÿ8…øû…½-
+qsquid:S3776Û"RRefactor this method to reduce its Cognitive Complexity from 59 to the 15 allowed.(™ÿ†¨8…øû…½-
+usquid:S00116Â"PRename this field "do_cr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾¶¼Ñıÿÿÿÿ8…øû…½-
+ˆ"squid:ClassVariableVisibilityCheckI"NMake op a static final constant or non-public and provide accessors if needed.(ãôËÃøÿÿÿÿ8…øû…½-
+isquid:HiddenFieldCheck’":Rename "state" which hides the field declared at line 236.(¤ÚÁÌûÿÿÿÿ8…øû…½-
+Gsquid:S4274Ğ"(Replace this assert with a proper check.(‘²á¥8…øû…½-
+lsquid:HiddenFieldCheckİ"=Rename "alphabet" which hides the field declared at line 579.(˜ò£šÿÿÿÿÿ8…øû…½-
+]"squid:SwitchLastCaseIsDefaultCheck‰""Add a default case to this switch.(ÑóìÛúÿÿÿÿ8…øû…½-
+\squid:S1197µ"8Move the array designator from the variable to the type.(µ”Ù¬şÿÿÿÿ8…øû…½-
+Wsquid:S1197ª"8Move the array designator from the variable to the type.(‡¸¢ã8…øû…½-
+usquid:S00116Á"URename this field "do_newline" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ÜÂÆ8…øû…½-
+usquid:S00116À"URename this field "do_padding" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıìŒ³8…øû…½-
+Œ"squid:ClassVariableVisibilityCheckH"RMake output a static final constant or non-public and provide accessors if needed.(Ë¹“Øıÿÿÿÿ8…øû…½-
+]"squid:SwitchLastCaseIsDefaultCheckê""Add a default case to this switch.(âÀıšûÿÿÿÿ8…øû…½-
+Wsquid:S1197µ"8Move the array designator from the variable to the type.(®¦…¾8…øû…½-
+msquid:S1871©"IThis case's code block is the same as the block for the case on line 409.(µ»ïşıÿÿÿÿ8…øû…½-
+\squid:S1197Ì"8Move the array designator from the variable to the type.(ûéŸ–ùÿÿÿÿ8…øû…½-
+Ssquid:EmptyStatementUsageCheck÷"Remove this empty statement.(ôŸìúÿÿÿÿ8…øû…½-
+X"squid:SwitchLastCaseIsDefaultCheck½""Add a default case to this switch.(ş™ÅŞ8…øû…½-
+isquid:HiddenFieldCheck“":Rename "value" which hides the field declared at line 237.(Õƒ“şÿÿÿÿ8…øû…½-
+qsquid:S3776‡"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(™ÿ†¨8…øû…½-
+qsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı‡…Ò8…øû…½-
+X"squid:SwitchLastCaseIsDefaultCheck•""Add a default case to this switch.(ş™ÅŞ8…øû…½-
+osquid:CommentedOutCodeLine×"<This block of commented-out lines of code should be removed.(ËÏ¸úÿÿÿÿ8…øû…½-

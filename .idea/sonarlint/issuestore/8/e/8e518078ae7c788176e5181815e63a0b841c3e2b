@@ -1,0 +1,6 @@
+
+Qsquid:S1068".Remove this unused "mPatchName" private field.(ÖœÅŸøÿÿÿÿ8Ö½¶²-
+vsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(öúÔøÿÿÿÿ8¬‚Ì¶²-
+Isquid:S1168*"+Return an empty collection instead of null.(¥¹ï8Ú‰Ü…²-
+qsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Á‡Õ¦8—ıÃ¶²-
+Qsquid:S1068".Remove this unused "mLocalType" private field.(¥©ûÿÿÿÿ8ÿşÄ¶²-

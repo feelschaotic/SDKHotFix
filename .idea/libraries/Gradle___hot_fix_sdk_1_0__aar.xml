@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :hot-fix-sdk.1.0:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/e81ea97dc51093ffaeb09cf2e791e83391fae1fe/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/e81ea97dc51093ffaeb09cf2e791e83391fae1fe/output/jars/libs/autopatchbase-0.4.87.10.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/e81ea97dc51093ffaeb09cf2e791e83391fae1fe/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
