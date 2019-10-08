@@ -27,6 +27,7 @@ android {
             dirs 'libs'
         }
     }
+    useLibrary 'org.apache.http.legacy'
 }
 
 dependencies {
@@ -41,7 +42,7 @@ dependencies {
     //依赖library
     // debugCompile project(path: ':sdk', configuration: 'debug')
     //releaseCompile project(path: ':sdk', configuration: 'release')
-    compile project(path: ':sdk')
+    compile (name: 'hot-fix-sdk.1.0', ext: 'aar')
 }
 repositories {
     mavenCentral()

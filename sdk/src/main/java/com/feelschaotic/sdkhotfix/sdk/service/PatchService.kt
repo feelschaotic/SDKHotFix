@@ -22,12 +22,12 @@ class PatchService {
     /**
      * 从远端获取补丁列表
      */
-    fun checkVersion(url: String, map: MutableMap<String, String>, listener: RespondListener<String>) {
+    fun checkVersion(url: String, headers: Headers, map: MutableMap<String, String>, listener: RespondListener<String>) {
         if (map.isEmpty()) {
             return
         }
         val finalUrl = jointUrl(url, map)
-        client.newCall(Request.Builder().url(finalUrl).get().build()).enqueue(object : Callback {
+        client.newCall(Request.Builder().url(finalUrl).headers(headers).get().build()).enqueue(object : Callback {
             override fun onResponse(call: Call, response: Response?) {
                 response?.body()?.let {
                     listener.onSuccess(it.string())

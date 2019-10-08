@@ -4,6 +4,8 @@ import android.app.Activity
 import android.os.Bundle
 import com.feelschaotic.sdkhotfix.sdk.HotfixConfig
 import com.feelschaotic.sdkhotfix.sdk.HotfixManager
+import com.feelschaotic.sdkhotfix.sdk.service.ServiceManager
+import com.feelschaotic.sdkhotfix.sdk.utils.LogUtils
 import kotlinx.android.synthetic.main.activity_main.*
 
 /**
@@ -19,15 +21,6 @@ class MainActivity : Activity() {
         fix_btn.setOnClickListener {
             initHotfix()
         }
-        call_bug_method_btn.setOnClickListener { callBug() }
-        rollback_btn.setOnClickListener { rollback() }
-    }
-
-    private fun callBug() {
-    }
-
-    private fun rollback() {
-
     }
 
     private fun initHotfix() {
@@ -36,5 +29,10 @@ class MainActivity : Activity() {
                 .packageName(BuildConfig.APPLICATION_ID)
                 .build()
         HotfixManager.init(application, config)
+
+        ServiceManager.checkVersion(onCheckVersionListener = {
+            LogUtils.d("TAG", "result:$it")
+        })
+
     }
 }

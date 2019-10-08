@@ -54,6 +54,8 @@
 1. 在编译阶段插件侵入了产品代码，对运行效率、方法数、包体积还是产生了一些副作用。（可指定某些class无需插入方法，减少插桩数）
 2. so和资源的替换目前暂未实现 
 3. 对于只有字段访问的函数无法直接修复，可通过调用处间接修复
+4. 尚未在MAC环境下测试
+5. 上传的补丁支持按包名存档
 
 ## 二、接入指南 
 
@@ -62,6 +64,16 @@
 关于常见问题的解决，请参看 [Wiki](https://github.com/feelschaotic/SDKHotFix/wiki)
 
 ## 三、使用指南和演示
+
+- [SDK热修复SDK接入文档](https://github.com/feelschaotic/SDKHotFix/wiki/SDK%E7%83%AD%E4%BF%AE%E5%A4%8DSDK%E6%8E%A5%E5%85%A5%E6%96%87%E6%A1%A3)
+> 用于业务SDK接入
+
+- [SDK热修复使用文档](./docs/SDK热修复使用文档.md)
+> 用于接入后SDK的打包、补丁代码的编写、下发、上传。
+
+- [SDK热修复使用常见问题](https://github.com/feelschaotic/SDKHotFix/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E5%BC%82%E5%B8%B8%E8%87%AA%E6%9F%A5)
+> 常见问题和异常汇总，遇到问题前请先自查
+
 //TODO:gif
 
 ## 四、原理

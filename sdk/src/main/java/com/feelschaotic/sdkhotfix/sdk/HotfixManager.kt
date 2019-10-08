@@ -3,7 +3,6 @@ package com.feelschaotic.sdkhotfix.sdk
 import android.app.Application
 import com.alibaba.fastjson.JSON
 import com.feelschaotic.sdkhotfix.sdk.const.Const
-import com.feelschaotic.sdkhotfix.sdk.patch.PatchManager
 import com.feelschaotic.sdkhotfix.sdk.statistics.StatisticsConstants
 import com.feelschaotic.sdkhotfix.sdk.statistics.StatisticsManager
 import com.feelschaotic.sdkhotfix.sdk.utils.LogUtils
@@ -35,7 +34,7 @@ object HotfixManager {
         HotfixManager.config = config
         HotfixManager.config.checkConfig()
         initRollbackListener()
-        PatchManager.loadPatch()
+        //TODO:PatchManager.loadPatch()
     }
 
     private fun initRollbackListener() {
