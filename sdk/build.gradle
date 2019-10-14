@@ -2,6 +2,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'maven'
 apply plugin: com.feelschaotic.upload.UploadPatchPlugin
+apply from: rootProject.file('gradle/gradle_mvn_push.gradle')
+
 android {
     compileSdkVersion 27
     buildToolsVersion "27.0.3"
@@ -51,28 +53,8 @@ android {
     }
 }
 
-uploadArchives {
-    repositories {
-        mavenDeployer {
-            snapshotRepository(url: MAVEN_REPO_SNAPSHOT_URL) {
-                authentication(userName: NEXUS_USERNAME, password: NEXUS_PASSWORD)
-            }
-            repository(url: MAVEN_REPO_RELEASE_URL) {
-                authentication(userName: NEXUS_USERNAME, password: NEXUS_PASSWORD)
-            }
-            pom.project {
-                version '1.0.0'
-                artifactId 'F-SDK-HOTFIX'
-                groupId GROUP_ID
-                packaging TYPE
-                description DESCRIPTION
-            }
-        }
-    }
-}
-
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(dir: 'libs', include: ['*.aar', '*.jar'], exclude: [])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
@@ -83,12 +65,11 @@ dependencies {
     compile 'com.tencent:mmkv:1.0.10'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
 
-    compile(name: 'robust-0.4.87.10', ext: 'aar')
-    compile 'com.alibaba:fastjson:1.2.46+'
-    compile 'com.squareup.okhttp3:okhttp:3.4.0+'
-    compile 'com.squareup.okio:okio:1.12.0+'
-
-    compile 'com.aliyun.dpa:oss-android-sdk:+'
+    compile 'com.alibaba:fastjson:1.2.46'
+    compile 'com.squareup.okhttp3:okhttp:3.4.0'
+    compile 'com.squareup.okio:okio:1.12.0'
+    compile 'com.github.feelschaotic:Robust.patch:0.4.87.5-RELEASE'
+    compile 'com.aliyun.dpa:oss-android-sdk:2.9.2'
     compile 'com.feelschaotic.sdk:crypto:1.0'
 
     compile "io.reactivex.rxjava2:rxjava:2.2.2"

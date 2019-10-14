@@ -1,6 +1,8 @@
 
 # 美团robust热修复
 -keep class com.meituan.robust.**{*;}
+-keep class meituan.robust.**{*;}
+-keepattributes *Annotation*
 
 # 保留类及其所有成员不被混淆
 -keep class com.feelschaotic.sdkhotfix.** {*;}

@@ -4,7 +4,6 @@ apply plugin: 'maven'
 
 repositories {
     jcenter()
-    maven { url "TODO" }
     maven() { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
 }
 
