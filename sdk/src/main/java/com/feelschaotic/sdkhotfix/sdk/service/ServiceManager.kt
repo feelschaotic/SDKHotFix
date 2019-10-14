@@ -60,13 +60,17 @@ object ServiceManager {
 
             private fun disposeResp(response: String) {
                 val jsonObj: JSONObject = JSON.parse(response) as JSONObject
-                if (jsonObj.getJSONObject("result") == null || CODE_SUCCESS != jsonObj.getJSONObject("result").getIntValue("code")) {
+
+                // 见鬼的bmob response死活只能string 只能客户端来强转一下
+                if (jsonObj.getString("result") == null) {
                     LogUtils.d(TAG, "没有补丁信息")
                     return
                 }
 
-                val dataArray = jsonObj.getJSONArray("data")
-                if (dataArray == null || dataArray.isEmpty()) {
+                val resultJsonObj = JSON.parse(jsonObj.getString("result")) as JSONObject
+                val dataArray = resultJsonObj.getJSONArray("data")
+                if (dataArray == null || dataArray.isEmpty() || CODE_SUCCESS != resultJsonObj.getIntValue("code")) {
+                    LogUtils.d(TAG, "没有补丁信息")
                     return
                 }
                 val respData = JSONObject.toJavaObject(dataArray[0] as JSONObject, CheckVersionRespData::class.java)

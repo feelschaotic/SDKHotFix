@@ -41,9 +41,6 @@ dependencies {
     compile "com.android.support:appcompat-v7:27.1.1"
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     //依赖library
-    // debugCompile project(path: ':sdk', configuration: 'debug')
-    //releaseCompile project(path: ':sdk', configuration: 'release')
-    //compile (name: 'hot-fix-sdk.1.0', ext: 'aar')
     compile project(path: ':sdk')
 }
 repositories {
