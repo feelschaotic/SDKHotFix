@@ -19,7 +19,6 @@ dependencies {
     compile files('libs/httpcore-4.4.1.jar')
     compile files('libs/jdom-1.1.jar')
     compile files('libs/encrypt-1.0.jar')
-
     compile 'com.squareup.okhttp3:okhttp:3.14.0'
     compile 'com.alibaba:fastjson:1.2.46'
 }
