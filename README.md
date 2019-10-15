@@ -7,6 +7,7 @@
 在用户规模千万级别的app中验证过，稳定、无兼容问题，满足你的SDK快速拥有热修复能力的需求。
 
 ---
+## 目录
 
 - 一、介绍
   * 作用
@@ -19,7 +20,7 @@
 - 六、鸣谢
     * 改进说明
     
-[查看演示 Demo]() | [文档](https://github.com/feelschaotic/SDKHotFix/wiki)
+[查看演示 Demo](https://github.com/feelschaotic/SDKHotFix/tree/master/business_sdk) | [文档](https://github.com/feelschaotic/SDKHotFix/wiki)
 
 
 ## 一、介绍
@@ -48,6 +49,7 @@
 2. 实时生效
 3. 修复成功率高达99.9%
 4. 在用户规模千万级别的app中验证过，可信赖
+5. 支持补丁异常自动失效，不用再担心补丁造成crash啦~
 
 ### 待改进
 
@@ -55,18 +57,15 @@
 2. so和资源的替换目前暂未实现 
 3. 对于只有字段访问的函数无法直接修复，可通过调用处间接修复
 4. 尚未在MAC环境下测试
-5. 上传的补丁支持按包名存档
+5. 上传的GradleTask支持补丁按包名存档
 
 ## 二、接入指南 
 
-点击[SDK热修复SDK接入文档]()，开始接入吧！
+点击[SDK热修复SDK接入文档](https://github.com/feelschaotic/SDKHotFix/wiki/SDK%E7%83%AD%E4%BF%AE%E5%A4%8DSDK%E6%8E%A5%E5%85%A5%E6%96%87%E6%A1%A3)，开始接入吧！
 
 关于常见问题的解决，请参看 [Wiki](https://github.com/feelschaotic/SDKHotFix/wiki)
 
 ## 三、使用指南和演示
-
-- [SDK热修复SDK接入文档](https://github.com/feelschaotic/SDKHotFix/wiki/SDK%E7%83%AD%E4%BF%AE%E5%A4%8DSDK%E6%8E%A5%E5%85%A5%E6%96%87%E6%A1%A3)
-> 用于业务SDK接入
 
 - [SDK热修复使用文档](https://github.com/feelschaotic/SDKHotFix/wiki/SDK%E7%83%AD%E4%BF%AE%E5%A4%8D%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3)
 > 用于接入后SDK的打包、补丁代码的编写、下发、上传。
