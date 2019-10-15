@@ -73,7 +73,7 @@
 - [SDK热修复使用常见问题](https://github.com/feelschaotic/SDKHotFix/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E5%BC%82%E5%B8%B8%E8%87%AA%E6%9F%A5)
 > 常见问题和异常汇总，遇到问题前请先自查
 
-//TODO:gif
+![](https://github.com/feelschaotic/SDKHotFix/blob/master/gif/%E6%BC%94%E7%A4%BAdemo%E5%B9%B6%E7%BC%96%E5%86%99%E8%A1%A5%E4%B8%81.gif)
 
 ## 四、原理
 
