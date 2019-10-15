@@ -1,6 +1,6 @@
 # SDKHotFix（5分钟即可接入）
 
-[![Download](https://img.shields.io/github/package-json/v/feelschaotic/SDKHotFix/master)]()
+[![Download](https://img.shields.io/badge/SDKHotFix-version%3A1.2-green)](https://github.com/feelschaotic/SDKHotFix/releases)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/feelschaotic/SDKHotFix/pulls)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/Meituan-Dianping/Robust/master/LICENSE)  
 
