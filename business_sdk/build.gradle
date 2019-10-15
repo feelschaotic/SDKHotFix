@@ -5,7 +5,8 @@ buildscript {
     repositories {
         google()
         jcenter()
-        //TODO:
+        //接入第二步:增加maven配置
+        maven { url "https://mvnrepository.com/" }
 
     }
     dependencies {
@@ -15,8 +16,8 @@ buildscript {
         // 接入第二步：导库
         // Application模式下引入Robust脚本插件
         if (isAppModule.toBoolean()) {
-            classpath 'com.meituan.robust:gradle-plugin:0.4.87.10'
-            classpath 'com.meituan.robust:auto-patch-plugin:0.4.87.10'
+            classpath 'com.github.feelschaotic:Robust.gradle-plugin:0.4.87.5-RELEASE'
+            classpath 'com.github.feelschaotic:Robust.auto-patch-plugin:0.4.87.5-RELEASE'
         }
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -28,7 +29,8 @@ allprojects {
     repositories {
         google()
         jcenter()
-        //TODO:
+        //接入第二步:增加maven配置
+        maven { url "https://mvnrepository.com/" }
     }
 }
 

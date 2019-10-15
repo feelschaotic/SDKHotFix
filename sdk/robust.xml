@@ -29,7 +29,7 @@
         <patchLog>false</patchLog>
 
         <!--项目是否支持progaurd-->
-        <proguard>true</proguard>
+        <proguard>false</proguard>
         <!--<proguard>false</proguard>-->
 
         <!--项目是否支持ASM进行插桩，默认使用ASM，推荐使用ASM，Javaassist在容易和其他字节码工具相互干扰-->
@@ -40,9 +40,9 @@
     <!--需要热补的包名或者类名，这些包名下的所有类都被会插入代码-->
     <!--这个配置项是各个APP需要自行配置，就是你们App里面你们自己代码的包名，
     这些包名下的类会被Robust插入代码，没有被Robust插入代码的类Robust是无法修复的-->
-    <!-- !!!务必改为业务sdk的包名!!!! 格式为：com.feelschaotic.router-->
+    <!-- !!!务必改为业务sdk的包名!!!! 格式为：com.feelschaotic.samplesdk-->
     <packname name="hotfixPackage">
-        <name>com.feelschaotic.router</name>
+        <name>com.feelschaotic.samplesdk</name>
     </packname>
 
     <!--不需要Robust插入代码的包名，Robust库不需要插入代码，如下的配置项请保留，还可以根据各个APP的情况执行添加-->
@@ -55,7 +55,7 @@
     <!--补丁的包名，请保持和类PatchManipulateImp中fetchPatchList方法中设置的补丁类名保持一致（ setPatchesInfoImplClassFullName("com.meituan.robust.patch.PatchesInfoImpl")），
     各个App可以独立定制，需要确保的是setPatchesInfoImplClassFullName设置的包名是如下的配置项，类名必须是：PatchesInfoImpl-->
     <patchPackname name="patchPackname">
-        <name>com.feelschaotic.sdkhotfix.sdk.patch.PatchManipulateImp</name>
+        <name>com.feelschaotic.sdkhotfix.sdk.PatchManipulateImp</name>
     </patchPackname>
 
     <!--自动化补丁中，不需要反射处理的类，这个配置项慎重选择-->

@@ -5,7 +5,6 @@ import com.alibaba.fastjson.JSONException
 import com.alibaba.fastjson.JSONObject
 import com.feelschaotic.sdkhotfix.sdk.BuildConfig
 import com.feelschaotic.sdkhotfix.sdk.HotfixManager
-import com.feelschaotic.sdkhotfix.sdk.HotfixManager.config
 import com.feelschaotic.sdkhotfix.sdk.entity.CheckVersionRespData
 import com.feelschaotic.sdkhotfix.sdk.entity.DownloadRequest
 import com.feelschaotic.sdkhotfix.sdk.statistics.StatisticsConstants
@@ -44,7 +43,7 @@ object ServiceManager {
                 .add("Content-Type", "application/json")
                 .build()
 
-        patchService.checkVersion(BuildConfig.HOTFIX_SERVER_URL + "/checkversion"
+        patchService.checkVersion(BuildConfig.HOTFIX_SERVER_URL + "checkversion"
                 , headers
                 , map
                 , object : RespondListener<String> {
@@ -62,13 +61,16 @@ object ServiceManager {
             private fun disposeResp(response: String) {
                 val jsonObj: JSONObject = JSON.parse(response) as JSONObject
 
-                if (CODE_SUCCESS != jsonObj.getIntValue("code")) {
+                // 见鬼的bmob response死活只能string 只能客户端来强转一下
+                if (jsonObj.getString("result") == null) {
                     LogUtils.d(TAG, "没有补丁信息")
                     return
                 }
 
-                val dataArray = jsonObj.getJSONArray("data")
-                if (dataArray == null || dataArray.isEmpty()) {
+                val resultJsonObj = JSON.parse(jsonObj.getString("result")) as JSONObject
+                val dataArray = resultJsonObj.getJSONArray("data")
+                if (dataArray == null || dataArray.isEmpty() || CODE_SUCCESS != resultJsonObj.getIntValue("code")) {
+                    LogUtils.d(TAG, "没有补丁信息")
                     return
                 }
                 val respData = JSONObject.toJavaObject(dataArray[0] as JSONObject, CheckVersionRespData::class.java)

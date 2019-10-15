@@ -9,7 +9,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 27
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         ndk {
             abiFilters 'armeabi', 'armeabi-v7a', 'x86'
@@ -25,6 +25,7 @@ android {
     repositories {
         flatDir {
             dirs 'libs'
+            dirs project(':sdk').file('libs')
         }
     }
     useLibrary 'org.apache.http.legacy'
@@ -40,8 +41,6 @@ dependencies {
     compile "com.android.support:appcompat-v7:27.1.1"
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     //依赖library
-    // debugCompile project(path: ':sdk', configuration: 'debug')
-    //releaseCompile project(path: ':sdk', configuration: 'release')
     compile project(path: ':sdk')
 }
 repositories {

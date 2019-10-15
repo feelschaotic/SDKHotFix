@@ -26,7 +26,7 @@
         android:allowBackup="true"
         android:label="sdk"
         android:supportsRtl="true"
-        tools:replace="android:label">
+        tools:replace="android:label,android:allowBackup">
 
     </application>
 

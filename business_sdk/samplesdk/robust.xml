@@ -55,7 +55,7 @@
     <!--补丁的包名，请保持和类PatchManipulateImp中fetchPatchList方法中设置的补丁类名保持一致（ setPatchesInfoImplClassFullName("com.meituan.robust.patch.PatchesInfoImpl")），
     各个App可以独立定制，需要确保的是setPatchesInfoImplClassFullName设置的包名是如下的配置项，类名必须是：PatchesInfoImpl-->
     <patchPackname name="patchPackname">
-        <name>com.feelschaotic.sdkhotfix.sdk.patch.PatchManipulateImp</name>
+        <name>com.feelschaotic.sdkhotfix.sdk.PatchManipulateImp</name>
     </patchPackname>
 
     <!--自动化补丁中，不需要反射处理的类，这个配置项慎重选择-->

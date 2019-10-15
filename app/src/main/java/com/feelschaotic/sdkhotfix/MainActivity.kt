@@ -19,15 +19,6 @@ class MainActivity : Activity() {
         fix_btn.setOnClickListener {
             initHotfix()
         }
-        call_bug_method_btn.setOnClickListener { callBug() }
-        rollback_btn.setOnClickListener { rollback() }
-    }
-
-    private fun callBug() {
-    }
-
-    private fun rollback() {
-
     }
 
     private fun initHotfix() {

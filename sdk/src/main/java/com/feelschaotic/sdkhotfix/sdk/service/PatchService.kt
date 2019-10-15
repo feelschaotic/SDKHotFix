@@ -1,5 +1,6 @@
 package com.feelschaotic.sdkhotfix.sdk.service
 
+import com.alibaba.fastjson.JSON
 import com.feelschaotic.sdkhotfix.sdk.entity.DownloadRequest
 import okhttp3.*
 import java.io.IOException
@@ -26,31 +27,24 @@ class PatchService {
         if (map.isEmpty()) {
             return
         }
-        val finalUrl = jointUrl(url, map)
-        client.newCall(Request.Builder().url(finalUrl).headers(headers).get().build()).enqueue(object : Callback {
-            override fun onResponse(call: Call, response: Response?) {
-                response?.body()?.let {
-                    listener.onSuccess(it.string())
-                }
-            }
+        val requestJson = JSON.toJSONString(map)
+        client.newCall(Request.Builder()
+                .url(url)
+                .headers(headers)
+                .post(RequestBody.create(MediaType.get("application/json; charset=utf-8"), requestJson)).build())
+                .enqueue(object : Callback {
+                    override fun onResponse(call: Call, response: Response?) {
+                        response?.body()?.let {
+                            listener.onSuccess(it.string())
+                        }
+                    }
 
-            override fun onFailure(call: Call, e: IOException?) {
-                e?.let {
-                    listener.onError(it)
-                }
-            }
-        })
-    }
-
-    private fun jointUrl(url: String, map: MutableMap<String, String>): String {
-        val sb = StringBuffer("$url?")
-        for (key in map.keys) {
-            sb.append(key)
-            sb.append("=")
-            sb.append(map[key])
-            sb.append("&")
-        }
-        return sb.toString().substring(0, sb.toString().length - 1)
+                    override fun onFailure(call: Call, e: IOException?) {
+                        e?.let {
+                            listener.onError(it)
+                        }
+                    }
+                })
     }
 
     /**
