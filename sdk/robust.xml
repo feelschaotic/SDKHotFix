@@ -40,9 +40,9 @@
     <!--需要热补的包名或者类名，这些包名下的所有类都被会插入代码-->
     <!--这个配置项是各个APP需要自行配置，就是你们App里面你们自己代码的包名，
     这些包名下的类会被Robust插入代码，没有被Robust插入代码的类Robust是无法修复的-->
-    <!-- !!!务必改为业务sdk的包名!!!! 格式为：com.feelschaotic.router-->
+    <!-- !!!务必改为业务sdk的包名!!!! 格式为：com.feelschaotic.samplesdk-->
     <packname name="hotfixPackage">
-        <name>com.feelschaotic.router</name>
+        <name>com.feelschaotic.samplesdk</name>
     </packname>
 
     <!--不需要Robust插入代码的包名，Robust库不需要插入代码，如下的配置项请保留，还可以根据各个APP的情况执行添加-->
