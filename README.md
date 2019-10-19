@@ -1,10 +1,14 @@
-# SDKHotFix（5分钟即可接入）
+# SDKHotFix
+
+![](https://s2.ax1x.com/2019/10/19/KmuXbF.md.png)
 
 [![Download](https://img.shields.io/badge/SDKHotFix-version%3A1.2-green)](https://github.com/feelschaotic/SDKHotFix/releases)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/feelschaotic/SDKHotFix/pulls)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/Meituan-Dianping/Robust/master/LICENSE)  
 
-在用户规模千万级别的app中验证过，稳定、无兼容问题，满足你的SDK快速拥有热修复能力的需求。
+在用户规模千万级别的app中验证过，稳定、无兼容问题，5分钟即可接入，满足你的SDK快速拥有热修复能力的需求。
+
+
 
 ---
 ## 目录
