@@ -51,6 +51,10 @@ android {
             dirs 'libs'
         }
     }
+
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
