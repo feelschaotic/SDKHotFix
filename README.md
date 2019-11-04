@@ -60,8 +60,9 @@
 1. 在编译阶段插件侵入了产品代码，对运行效率、方法数、包体积还是产生了一些副作用。（可指定某些class无需插入方法，减少插桩数）
 2. so和资源的替换目前暂未实现 
 3. 对于只有字段访问的函数无法直接修复，可通过调用处间接修复
-4. 尚未在MAC环境下测试
-5. 上传的GradleTask支持补丁按包名存档
+4. 上传GradleTask尚未在MAC环境下测试
+5. 上传的补丁支持按包名存档
+6. 要商用的小伙伴要注意，建议换成自己的后端接口或自己续费一个bmob应用，因为bmob云函数服务超过40天需要收费，所以本项目需要定期更新应用秘钥。
 
 ## 二、接入指南 
 
@@ -70,6 +71,9 @@
 关于常见问题的解决，请参看 [Wiki](https://github.com/feelschaotic/SDKHotFix/wiki)
 
 ## 三、使用指南和演示
+
+- [SDK热修复SDK接入文档](https://github.com/feelschaotic/SDKHotFix/wiki/SDK%E7%83%AD%E4%BF%AE%E5%A4%8DSDK%E6%8E%A5%E5%85%A5%E6%96%87%E6%A1%A3)
+> 用于业务SDK接入
 
 - [SDK热修复使用文档](https://github.com/feelschaotic/SDKHotFix/wiki/SDK%E7%83%AD%E4%BF%AE%E5%A4%8D%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3)
 > 用于接入后SDK的打包、补丁代码的编写、下发、上传。
