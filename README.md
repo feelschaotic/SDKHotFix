@@ -83,6 +83,12 @@
 
 ![](https://github.com/feelschaotic/SDKHotFix/blob/master/gif/%E6%BC%94%E7%A4%BAdemo%E5%B9%B6%E7%BC%96%E5%86%99%E8%A1%A5%E4%B8%81.gif)
 
+> Module说明：
+> - SDKHotFix\APP：调试HotfixSDK用
+> - SDKHotFix\buildSrc：upload补丁用
+> - SDKHotFix\SDK：赋予业务SDK热修复能力的SDK
+> - SDKHotFix\business_sdk\APP：模拟业务app接入了有热修复能力的业务SDK，上述gif的演示效果即是本示例
+> - SDKHotFix\business_sdk\samplesdk：模拟业务SDK如何接入SDKHotFix，上述gif的演示效果即是本示例
 ## 四、原理
 
 - [如何5分钟让你的 SDK 拥有热修复能力（原理篇）](https://juejin.im/post/5da546b35188254796426ae3)
