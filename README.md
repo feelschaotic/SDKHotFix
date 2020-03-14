@@ -2,7 +2,7 @@
 
 ![](https://s2.ax1x.com/2019/10/19/KmuXbF.md.png)
 
-[![Download](https://img.shields.io/badge/SDKHotFix-version%3A1.3-green)](https://github.com/feelschaotic/SDKHotFix/releases)
+[![Download](https://img.shields.io/badge/SDKHotFix-version%3A1.6-green)](https://github.com/feelschaotic/SDKHotFix/releases)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/feelschaotic/SDKHotFix/pulls)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/Meituan-Dianping/Robust/master/LICENSE)  
 
@@ -97,12 +97,8 @@
 
 - [APP 热修复都懂了，你会 SDK 热修复吗？最全方案在这里！](https://juejin.im/post/5d299aaae51d45105e021367)
 
-## 六、鸣谢
+## 六、改进说明
 
-灵感来源于oubowu大大的 [RobustForSdk](https://github.com/oubowu/RobustForSdk)，感谢！
-
-#### 改进说明
-相比于 RobustForSdk 库，本库：
 1. 稳定性提升：
 - fix 若干 bug
 - fix 与业务方的资源 ID 冲突问题
