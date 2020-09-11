@@ -2,7 +2,7 @@
 
 ![](https://s2.ax1x.com/2019/10/19/KmuXbF.md.png)
 
-[![Download](https://img.shields.io/badge/SDKHotFix-version%3A1.6-green)](https://github.com/feelschaotic/SDKHotFix/releases)
+[![Download](https://img.shields.io/badge/SDKHotFix-version%3A1.10-green)](https://github.com/feelschaotic/SDKHotFix/releases)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/feelschaotic/SDKHotFix/pulls)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/Meituan-Dianping/Robust/master/LICENSE)  
 
@@ -21,8 +21,7 @@
 - 三、使用指南和演示
 - 四、原理
 - 五、相关文章
-- 六、鸣谢
-    * 改进说明
+- 六、改进说明
     
 [查看演示 Demo](https://github.com/feelschaotic/SDKHotFix/tree/master/business_sdk) | [文档](https://github.com/feelschaotic/SDKHotFix/wiki)
 
