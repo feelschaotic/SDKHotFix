@@ -21,8 +21,8 @@ android {
         debug {
             // 可能测试环境和正式环境分离 到时候再扩展吧
             buildConfigField "String", "HOTFIX_SERVER_URL", "\"https://api.bmob.cn/1/functions/\""
-            buildConfigField "String", "REST_API_KEY", "\"a27e0ae5e413b2db99b5d0e617de8531\""
-            buildConfigField "String", "BMOB_APPLICATION_ID", "\"012d27420d88633b707848e510acf86a\""
+            buildConfigField "String", "REST_API_KEY", "\"02ab887dd4c57015d8e346b5a728c569\""
+            buildConfigField "String", "BMOB_APPLICATION_ID", "\"960a7aa0e24065f4804242fb1e64a7f3\""
             buildConfigField "String", "ACCESS_ID", "\"LTAI4Fx9ecT1eH86xzRKt2Yc\""
             buildConfigField "String", "BUCK_NAME", "\"sdkhotfix-app\""
             buildConfigField "String", "SECRET_KEY", "\"JtMMOLEtwxTZe31soVgKGpVbwovUP8\""
@@ -30,8 +30,8 @@ android {
         }
         release {
             buildConfigField "String", "HOTFIX_SERVER_URL", "\"https://api.bmob.cn/1/functions/\""
-            buildConfigField "String", "REST_API_KEY", "\"a27e0ae5e413b2db99b5d0e617de8531\""
-            buildConfigField "String", "BMOB_APPLICATION_ID", "\"012d27420d88633b707848e510acf86a\""
+            buildConfigField "String", "REST_API_KEY", "\"02ab887dd4c57015d8e346b5a728c569\""
+            buildConfigField "String", "BMOB_APPLICATION_ID", "\"960a7aa0e24065f4804242fb1e64a7f3\""
             buildConfigField "String", "ACCESS_ID", "\"LTAI4Fx9ecT1eH86xzRKt2Yc\""
             buildConfigField "String", "BUCK_NAME", "\"sdkhotfix-app\""
             buildConfigField "String", "SECRET_KEY", "\"JtMMOLEtwxTZe31soVgKGpVbwovUP8\""
