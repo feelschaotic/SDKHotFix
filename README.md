@@ -2,7 +2,7 @@
 
 ![](https://s2.ax1x.com/2019/10/19/KmuXbF.md.png)
 
-[![Download](https://img.shields.io/badge/SDKHotFix-version%3A1.12-green)](https://github.com/feelschaotic/SDKHotFix/releases)
+[![Download](https://img.shields.io/badge/SDKHotFix-version%3A1.13-green)](https://github.com/feelschaotic/SDKHotFix/releases)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/feelschaotic/SDKHotFix/pulls)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/Meituan-Dianping/Robust/master/LICENSE)  
 
